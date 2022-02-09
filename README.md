@@ -3,3 +3,5 @@
 * SpringBoot
 * Microservices
 * SpringData
+* Spring Cloud
+  * Service Discovery & Registry - EurekaServer
