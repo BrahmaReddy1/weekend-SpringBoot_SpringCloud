@@ -6,3 +6,7 @@
 * Spring Cloud
   * Service Discovery & Registry - EurekaServer
   * Api Gatewat - ZuulProxy
+  * Distrubte Tracing - Sleuth & Zipkin
+  * CicuiteBreaker - Hystrix & HystrixDashBoard
+* Actuators - To collect Metrics of application
+* Swagger- Documentaion 
