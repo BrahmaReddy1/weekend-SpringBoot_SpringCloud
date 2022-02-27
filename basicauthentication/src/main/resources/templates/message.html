@@ -1,0 +1,5 @@
+<h1>Its Secured Message after authentication only you can read</h1>
+<h1>Hello Mr/Mrs [[${#httpServletRequest.remoteUser}]]</h1>
+<form th:action="@{/logout}" method="POST">
+<button>Logout</button>
+</form>

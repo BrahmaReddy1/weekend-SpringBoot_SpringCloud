@@ -1,0 +1,16 @@
+<h1>Login With UserName& Password</h1>
+<div th:if="${param.error}" style="color:red">
+Login Failed try again!
+</div>
+<div th:if="${param.logout}" style="color:green">
+Logout Success!
+</div>
+
+<form method="Post" th:action="@{/login}">
+	<label for="username">Username</label>
+	<input type="text" name="username">
+	<label for="password">Username</label>
+	Password<input type="text" name="password">
+	
+	<button type="submit">Login</button>
+</form>
