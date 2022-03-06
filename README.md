@@ -10,3 +10,6 @@
   * CicuiteBreaker - Hystrix & HystrixDashBoard
 * Actuators - To collect Metrics of application
 * Swagger- Documentaion 
+* Spring Security
+  * Basic Authentication
+  * OAuth2-JWT Authentication
